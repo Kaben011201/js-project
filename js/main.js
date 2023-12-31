@@ -34,9 +34,9 @@ function renderCars() {
 
         const html = `
             <div class="col-lg-3 col-md-6 col-sm-6 col-12">
-                <img src="` + imageValue + `" alt="" class="img-fluid">
-                <h3 class="mt-3" id="carName2">` + nameValue + `</h3>
-                <p>$` + priceValue + `</p>
+                <img src=" ${imageValue} " alt="" class="img-fluid">
+                <h3 class="mt-3" id="carName2"> ${nameValue} </h3>
+                <p>$${priceValue} </p>
                 <p>
                     <a href="#" class="btn-view btn btn-primary w-100">View Details</a>
                     <a href="#" class="btn-book mt-2 btn btn-secondary w-100">Book Now</a>
